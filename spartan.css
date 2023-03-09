@@ -59,6 +59,22 @@ li{
     100% {border-color: blue; border-radius: 25px; width: 30vw}
 }
 
+.container{
+    background-color: aquamarine;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.draggable{
+    padding: 1rem;
+    background-color:paleturquoise;
+    cursor: move;
+}
+
+.draggable.dragging {
+    opacity: .5;
+}
+
 ul{
     animation-name: float;
     animation-duration: 5s;
