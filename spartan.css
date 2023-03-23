@@ -5,6 +5,33 @@
     background-color: #3E447C;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background-color: lightskyblue;
+    height: 50px;
+    width: 100vw;
+    border-radius: 2px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background-color: lightskyblue;
+    height: 50px;
+    width: 100vw;
+    border-radius: 2px;
+}
+
+
 h1{
     color: #CD73EB;
     justify-content: center;
